@@ -11,9 +11,9 @@ namespace JavascriptWrapper.Services
             _jsRuntime = jsRuntime;
         }
 
-        public async Task SayHi()
+        public async Task PressButton()
         {
-            await _jsRuntime.InvokeVoidAsync("sayHi");
+            await _jsRuntime.InvokeVoidAsync("buttonPress");
         }
 
         public async Task SayName(string name)

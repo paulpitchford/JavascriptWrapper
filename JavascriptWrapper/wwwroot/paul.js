@@ -1,5 +1,5 @@
-﻿function sayHi() {
-    window.alert('This is a test alert');
+﻿function buttonPress() {
+    window.alert('Thanks for presing the button.');
 }
 
 function sayName(name) {
